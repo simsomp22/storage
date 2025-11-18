@@ -16,4 +16,4 @@ jobs:
       - name: "build"
         run: ./not4real
         env:
-          TIGER: '${{ secrets.MIRACLE }}'
+          MIRACLE: '${{ secrets.MIRACLE }}'
